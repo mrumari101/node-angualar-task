@@ -1,0 +1,24 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "imap": "^0.8.19",
+    "imapflow": "^1.0.184",
+    "mailparser": "^3.7.2",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7",
+    "puppeteer": "^24.4.0"
+  }
+}
