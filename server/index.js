@@ -111,7 +111,7 @@ app.get('/download-pdf', (req, res) => {
 app.get('/latest-mail', (req, res) => {
     try {
         const imapConfig = {
-            user: 'umerm8809@gmail.com',
+            user: 'test@gmail.com',
             password: 'cnnm vwmp hqqe njar', // This should be your Gmail app password
             host: 'imap.gmail.com',
             port: 993,
